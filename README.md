@@ -27,7 +27,7 @@ L = tl_m2135(f, d, hbs, hms, W, h, env, lostype, variations);
 | `W`               | double | m   |   5 ≤ `W` ≤ 50 | Average street width |
 | `h`               | double | m   |  5 ≤ `h` ≤ 50  | Average building height |
 | `env`      | string |    | 'RURAL', 'SUBURBAN', 'URBAN' | Environment type |
-| `lostype`      | int |     |  | 1 - LoS <br> 2 - NLoS <br> 3 - LoS Probability |
+| `lostype`      | int |     |  | Line of sight conditions: <br>`1` - LoS <br> `2` - NLoS <br> `3` - LoS Probability |
 | `variations`      | boolean |     |  | Set to `true` to compute variation in path loss (shadow fading)|
 
 
